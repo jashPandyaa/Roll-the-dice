@@ -1,0 +1,13 @@
+<%- include("includes/head.ejs") %>
+<body>
+    <h1>
+        Dice Gave Value: <%=  diceValue  %>
+    </h1>
+
+    <% if(diceValue)  { %>
+        <h3>Nice! Roll dice again if you want.</h3>
+    <% } %>
+
+    <%- include("includes/footer.ejs");  %>
+</body>
+</html>
